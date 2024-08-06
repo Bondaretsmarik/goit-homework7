@@ -298,13 +298,22 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
        <div class="button-close" data-modal-close>
-        <svg width="11px" height="11px" class="icon-close">
+        <svg width="18px" height="18px" class="icon-close">
             <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
        </div>
+    <form>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <label>
+            <input type="text" name="Name" autocomplete="off">
+            <span class="form-label">Ім'я</span>
+            <svg width="24" height="24" class="icon-person">
+                <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+        </label>
+    </form>
     </div>
 </div>
-
 </main>
 
 <!-- Footer -->
@@ -352,7 +361,9 @@
 
     <div class="footer-send-form">
 
-        <input type="email" placeholder="E-mail" class="footer-input">
+        <Label>
+<input type="email" placeholder="E-mail" class="footer-input" name="E-mail">
+        </Label>
         <button class="footer-send-button"> Підписатися
         <svg width="24" height="24" class="icon-send">
             <use href="./images/icons.svg#icon-send"></use>
@@ -360,7 +371,6 @@
     </button>
     </div>
 </form>
-    
 </div>
     </footer>
 
