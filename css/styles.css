@@ -812,6 +812,69 @@ textarea {
     resize: none;
 }
 
+
+.label-contract {
+display: flex;
+margin: 20px auto 30px auto;
+}
+
+.checkbox {
+    appearance: none;
+
+}
+
+.icon-checkbox {
+    display: block;
+    margin-right: 7px;
+border: 2px solid var(--primery-text-color);
+border-radius: 4px;
+width: 16px;
+height: 16px;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked + .icon-checkbox {
+    background-color: var(--accent-color);
+    background-image: url(../icon\ check\ \(2\).svg);
+    background-size: contain;
+    background-origin: border-box;
+    border-color: var(--accent-color);
+}
+
+.checkbox-text {
+    line-height: 1.17;
+    color: var(--text-color);
+    margin-right: 4px;
+}
+
+.link-contract {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.button-form {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 0.5;
+    letter-spacing: 0.96px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.button-form:hover,
+.button-form:active {
+    background-color: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .footer-form {
     margin-left: 93px;
 }
